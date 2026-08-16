@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Processor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="brand">
+        <img src="icons/icon-48.png" width="46" height="46" alt="" />
+        <div>
+          <h1>Food Processor</h1>
+          <p>Clean up the recipe on this page.</p>
+        </div>
+      </header>
+
+      <section id="idle" class="panel">
+        <p class="intro">
+          Food Processor reads structured recipe data from the current tab only when you click the button below.
+        </p>
+        <button id="extract" class="primary" type="button">Extract Recipe</button>
+      </section>
+
+      <section id="status" class="status" aria-live="polite" hidden></section>
+
+      <section id="recipe" class="recipe" hidden>
+        <div class="recipe-heading">
+          <div>
+            <span class="eyebrow">Recipe found</span>
+            <h2 id="recipe-title"></h2>
+          </div>
+          <button id="reset" class="ghost" type="button">New</button>
+        </div>
+
+        <dl id="meta" class="meta"></dl>
+
+        <div class="recipe-section">
+          <h3>Ingredients</h3>
+          <ul id="ingredients" class="ingredients"></ul>
+        </div>
+
+        <div class="recipe-section">
+          <h3>Instructions</h3>
+          <ol id="instructions" class="instructions"></ol>
+        </div>
+
+        <div class="actions">
+          <button id="copy" class="secondary" type="button">Copy recipe</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

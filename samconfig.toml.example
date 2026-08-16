@@ -1,0 +1,9 @@
+version = 0.1
+
+[prod.deploy.parameters]
+stack_name = "recipe-extractor-prod"
+resolve_s3 = true
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "Environment=prod BedrockModelId=us.anthropic.claude-haiku-4-5-20251001-v1:0"
+confirm_changeset = true

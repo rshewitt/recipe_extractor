@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Food Processor turns cluttered recipe pages into clean ingredients and instructions." />
+    <meta name="theme-color" content="#fff9e8" />
+    <title>Food Processor — Just the recipe</title>
+    <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Food Processor home">
+          <img src="/assets/carrot-icon-64.png" alt="" width="52" height="52" />
+          <span>Food<br />Processor</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#how-it-works">How it works</a>
+          <a href="#browser-extension">Browser extension</a>
+          <a href="#about">About</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="page-title">
+          <div class="hero-decoration hero-decoration-one" aria-hidden="true"></div>
+          <div class="hero-decoration hero-decoration-two" aria-hidden="true"></div>
+
+          <div class="hero-mascot-wrap" aria-hidden="true">
+            <img class="hero-mascot" src="/assets/food-processor-mascot.png" alt="" />
+          </div>
+
+          <div class="hero-content">
+            <p class="eyebrow">Less scrolling. More cooking.</p>
+            <h1 id="page-title">Turn any recipe into <span>clean, usable instructions.</span></h1>
+            <p class="lede">
+              Paste a recipe URL and Food Processor will extract the ingredients and steps without the ads, popups, and life story.
+            </p>
+
+            <form id="recipe-form" class="url-form">
+              <label class="sr-only" for="recipe-url">Recipe URL</label>
+              <div class="url-row">
+                <span class="url-icon" aria-hidden="true">↗</span>
+                <input
+                  id="recipe-url"
+                  name="url"
+                  type="url"
+                  inputmode="url"
+                  autocomplete="url"
+                  placeholder="https://example.com/recipe"
+                  required
+                />
+                <button type="submit">
+                  <span class="sparkle" aria-hidden="true">✦</span>
+                  <span id="button-label">Extract Recipe</span>
+                </button>
+              </div>
+            </form>
+
+            <p id="status" class="status" role="status" aria-live="polite"></p>
+
+            <div class="trust-row" aria-label="Food Processor features">
+              <span>✓ JSON-LD first</span>
+              <span>✓ AI fallback</span>
+              <span>✓ No account required</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="how-it-works" class="features section-wrap" aria-labelledby="features-title">
+          <div class="section-heading">
+            <p class="eyebrow">How it works</p>
+            <h2 id="features-title">Built to get out of your way.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-green">
+              <div class="feature-icon" aria-hidden="true">◎</div>
+              <h3>Works automatically</h3>
+              <p>Extracts structured recipe data directly from the page whenever clean JSON-LD is available.</p>
+              <span class="feature-pill">Fast &amp; accurate</span>
+            </article>
+
+            <article class="feature-card feature-purple">
+              <div class="feature-icon" aria-hidden="true">✦</div>
+              <h3>AI fallback</h3>
+              <p>Uses Amazon Bedrock to normalize the useful recipe content when structured data is incomplete.</p>
+              <span class="feature-pill">Messy pages welcome</span>
+            </article>
+
+            <article id="browser-extension" class="feature-card feature-orange">
+              <div class="feature-icon" aria-hidden="true">⌘</div>
+              <h3>Browser extension</h3>
+              <p>For sites that block server-side bots, process the recipe from a page you already opened in Chrome.</p>
+              <span class="feature-pill">Best coverage</span>
+            </article>
+          </div>
+        </section>
+
+        <article id="recipe" class="recipe section-wrap" hidden>
+          <header class="recipe-header">
+            <div>
+              <p id="method" class="eyebrow"></p>
+              <h2 id="title"></h2>
+              <p id="description" class="description"></p>
+            </div>
+            <a id="source" class="source-link" target="_blank" rel="noopener noreferrer">View original ↗</a>
+          </header>
+
+          <dl id="meta" class="meta"></dl>
+
+          <div class="recipe-grid">
+            <section class="recipe-panel ingredients-panel">
+              <h3>Ingredients</h3>
+              <ul id="ingredients" class="ingredients"></ul>
+            </section>
+            <section class="recipe-panel instructions-panel">
+              <h3>Instructions</h3>
+              <ol id="instructions" class="instructions"></ol>
+            </section>
+          </div>
+        </article>
+
+        <section id="about" class="about section-wrap">
+          <img class="about-logo" src="/assets/food-processor-lockup.png" alt="Food Processor logo" />
+          <div>
+            <p class="eyebrow">Food Processor</p>
+            <h2>Cook the recipe, not the webpage.</h2>
+            <p>
+              Food Processor focuses on the parts you actually need in the kitchen: ingredients, timing, servings, and clear steps.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <span>Built for home cooks who just want the recipe.</span>
+        <span class="footer-carrot" aria-hidden="true">🥕</span>
+      </footer>
+    </div>
+  </body>
+</html>

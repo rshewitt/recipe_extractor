@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCAD091E3033DFEB006DDFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD091D3033DFEB006DDFFF /* AppDelegate.swift */; };
+		FCAD09203033DFEB006DDFFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD091F3033DFEB006DDFFF /* SceneDelegate.swift */; };
+		FCAD09233033DFEB006DDFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09213033DFEB006DDFFF /* LaunchScreen.storyboard */; };
+		FCAD09263033DFEB006DDFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09243033DFEB006DDFFF /* Main.storyboard */; };
+		FCAD092F3033DFEB006DDFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD092E3033DFEB006DDFFF /* AppDelegate.swift */; };
+		FCAD09323033DFEB006DDFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09303033DFEB006DDFFF /* Main.storyboard */; };
+		FCAD09393033DFEB006DDFFF /* Food Processor Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FCAD09383033DFEB006DDFFF /* Food Processor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCAD09433033DFEB006DDFFF /* Food Processor Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FCAD09423033DFEB006DDFFF /* Food Processor Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCAD09483033DFEB006DDFFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FCAD090D3033DFEA006DDFFF /* Main.html */; };
+		FCAD09493033DFEB006DDFFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FCAD090D3033DFEA006DDFFF /* Main.html */; };
+		FCAD094A3033DFEB006DDFFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAD090F3033DFEA006DDFFF /* Icon.png */; };
+		FCAD094B3033DFEB006DDFFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAD090F3033DFEA006DDFFF /* Icon.png */; };
+		FCAD094C3033DFEB006DDFFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09103033DFEA006DDFFF /* Style.css */; };
+		FCAD094D3033DFEB006DDFFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09103033DFEA006DDFFF /* Style.css */; };
+		FCAD094E3033DFEB006DDFFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09113033DFEA006DDFFF /* Script.js */; };
+		FCAD094F3033DFEB006DDFFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09113033DFEA006DDFFF /* Script.js */; };
+		FCAD09503033DFEB006DDFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD09123033DFEA006DDFFF /* ViewController.swift */; };
+		FCAD09513033DFEB006DDFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD09123033DFEA006DDFFF /* ViewController.swift */; };
+		FCAD09523033DFEB006DDFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09133033DFEB006DDFFF /* Assets.xcassets */; };
+		FCAD09533033DFEB006DDFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09133033DFEB006DDFFF /* Assets.xcassets */; };
+		FCAD09543033DFEB006DDFFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD09153033DFEB006DDFFF /* SafariWebExtensionHandler.swift */; };
+		FCAD09553033DFEB006DDFFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAD09153033DFEB006DDFFF /* SafariWebExtensionHandler.swift */; };
+		FCAD096E3033DFEB006DDFFF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09673033DFEB006DDFFF /* popup.js */; };
+		FCAD096F3033DFEB006DDFFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09683033DFEB006DDFFF /* popup.html */; };
+		FCAD09703033DFEB006DDFFF /* PRIVACY.md in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09693033DFEB006DDFFF /* PRIVACY.md */; };
+		FCAD09713033DFEB006DDFFF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096A3033DFEB006DDFFF /* README.md */; };
+		FCAD09723033DFEB006DDFFF /* icons in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096B3033DFEB006DDFFF /* icons */; };
+		FCAD09733033DFEB006DDFFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096C3033DFEB006DDFFF /* manifest.json */; };
+		FCAD09743033DFEB006DDFFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096D3033DFEB006DDFFF /* popup.css */; };
+		FCAD09753033DFEB006DDFFF /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09673033DFEB006DDFFF /* popup.js */; };
+		FCAD09763033DFEB006DDFFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09683033DFEB006DDFFF /* popup.html */; };
+		FCAD09773033DFEB006DDFFF /* PRIVACY.md in Resources */ = {isa = PBXBuildFile; fileRef = FCAD09693033DFEB006DDFFF /* PRIVACY.md */; };
+		FCAD09783033DFEB006DDFFF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096A3033DFEB006DDFFF /* README.md */; };
+		FCAD09793033DFEB006DDFFF /* icons in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096B3033DFEB006DDFFF /* icons */; };
+		FCAD097A3033DFEB006DDFFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096C3033DFEB006DDFFF /* manifest.json */; };
+		FCAD097B3033DFEB006DDFFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FCAD096D3033DFEB006DDFFF /* popup.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCAD093A3033DFEB006DDFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAD09073033DFEA006DDFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAD09373033DFEB006DDFFF;
+			remoteInfo = "Food Processor Extension (iOS)";
+		};
+		FCAD09443033DFEB006DDFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAD09073033DFEA006DDFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAD09413033DFEB006DDFFF;
+			remoteInfo = "Food Processor Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCAD095B3033DFEB006DDFFF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCAD09393033DFEB006DDFFF /* Food Processor Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09623033DFEB006DDFFF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCAD09433033DFEB006DDFFF /* Food Processor Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCAD090E3033DFEA006DDFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		FCAD090F3033DFEA006DDFFF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FCAD09103033DFEA006DDFFF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FCAD09113033DFEA006DDFFF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FCAD09123033DFEA006DDFFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCAD09133033DFEB006DDFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAD09153033DFEB006DDFFF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FCAD091A3033DFEB006DDFFF /* Food Processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD091D3033DFEB006DDFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAD091F3033DFEB006DDFFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCAD09223033DFEB006DDFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAD09253033DFEB006DDFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAD09273033DFEB006DDFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAD092C3033DFEB006DDFFF /* Food Processor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Processor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD092E3033DFEB006DDFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAD09313033DFEB006DDFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAD09333033DFEB006DDFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAD09383033DFEB006DDFFF /* Food Processor Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Food Processor Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD093D3033DFEB006DDFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAD09423033DFEB006DDFFF /* Food Processor Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Food Processor Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAD09473033DFEB006DDFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAD09673033DFEB006DDFFF /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../chrome_desktop/popup.js; sourceTree = "<group>"; };
+		FCAD09683033DFEB006DDFFF /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../chrome_desktop/popup.html; sourceTree = "<group>"; };
+		FCAD09693033DFEB006DDFFF /* PRIVACY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = PRIVACY.md; path = ../../chrome_desktop/PRIVACY.md; sourceTree = "<group>"; };
+		FCAD096A3033DFEB006DDFFF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../chrome_desktop/README.md; sourceTree = "<group>"; };
+		FCAD096B3033DFEB006DDFFF /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../chrome_desktop/icons; sourceTree = "<group>"; };
+		FCAD096C3033DFEB006DDFFF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../chrome_desktop/manifest.json; sourceTree = "<group>"; };
+		FCAD096D3033DFEB006DDFFF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../chrome_desktop/popup.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAD09173033DFEB006DDFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09293033DFEB006DDFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09353033DFEB006DDFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD093F3033DFEB006DDFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCAD09063033DFEA006DDFFF = {
+			isa = PBXGroup;
+			children = (
+				FCAD090B3033DFEA006DDFFF /* Shared (App) */,
+				FCAD09143033DFEB006DDFFF /* Shared (Extension) */,
+				FCAD091C3033DFEB006DDFFF /* iOS (App) */,
+				FCAD092D3033DFEB006DDFFF /* macOS (App) */,
+				FCAD093C3033DFEB006DDFFF /* iOS (Extension) */,
+				FCAD09463033DFEB006DDFFF /* macOS (Extension) */,
+				FCAD091B3033DFEB006DDFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAD090B3033DFEA006DDFFF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD09123033DFEA006DDFFF /* ViewController.swift */,
+				FCAD09133033DFEB006DDFFF /* Assets.xcassets */,
+				FCAD090C3033DFEA006DDFFF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FCAD090C3033DFEA006DDFFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD090D3033DFEA006DDFFF /* Main.html */,
+				FCAD090F3033DFEA006DDFFF /* Icon.png */,
+				FCAD09103033DFEA006DDFFF /* Style.css */,
+				FCAD09113033DFEA006DDFFF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCAD09143033DFEB006DDFFF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD09663033DFEB006DDFFF /* Resources */,
+				FCAD09153033DFEB006DDFFF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FCAD091B3033DFEB006DDFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD091A3033DFEB006DDFFF /* Food Processor.app */,
+				FCAD092C3033DFEB006DDFFF /* Food Processor.app */,
+				FCAD09383033DFEB006DDFFF /* Food Processor Extension.appex */,
+				FCAD09423033DFEB006DDFFF /* Food Processor Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAD091C3033DFEB006DDFFF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD091D3033DFEB006DDFFF /* AppDelegate.swift */,
+				FCAD091F3033DFEB006DDFFF /* SceneDelegate.swift */,
+				FCAD09213033DFEB006DDFFF /* LaunchScreen.storyboard */,
+				FCAD09243033DFEB006DDFFF /* Main.storyboard */,
+				FCAD09273033DFEB006DDFFF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FCAD092D3033DFEB006DDFFF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD092E3033DFEB006DDFFF /* AppDelegate.swift */,
+				FCAD09303033DFEB006DDFFF /* Main.storyboard */,
+				FCAD09333033DFEB006DDFFF /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		FCAD093C3033DFEB006DDFFF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD093D3033DFEB006DDFFF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FCAD09463033DFEB006DDFFF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD09473033DFEB006DDFFF /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FCAD09663033DFEB006DDFFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD09673033DFEB006DDFFF /* popup.js */,
+				FCAD09683033DFEB006DDFFF /* popup.html */,
+				FCAD09693033DFEB006DDFFF /* PRIVACY.md */,
+				FCAD096A3033DFEB006DDFFF /* README.md */,
+				FCAD096B3033DFEB006DDFFF /* icons */,
+				FCAD096C3033DFEB006DDFFF /* manifest.json */,
+				FCAD096D3033DFEB006DDFFF /* popup.css */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAD09193033DFEB006DDFFF /* Food Processor (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD095C3033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor (iOS)" */;
+			buildPhases = (
+				FCAD09163033DFEB006DDFFF /* Sources */,
+				FCAD09173033DFEB006DDFFF /* Frameworks */,
+				FCAD09183033DFEB006DDFFF /* Resources */,
+				FCAD095B3033DFEB006DDFFF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAD093B3033DFEB006DDFFF /* PBXTargetDependency */,
+			);
+			name = "Food Processor (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Food Processor (iOS)";
+			productReference = FCAD091A3033DFEB006DDFFF /* Food Processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAD092B3033DFEB006DDFFF /* Food Processor (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD09633033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor (macOS)" */;
+			buildPhases = (
+				FCAD09283033DFEB006DDFFF /* Sources */,
+				FCAD09293033DFEB006DDFFF /* Frameworks */,
+				FCAD092A3033DFEB006DDFFF /* Resources */,
+				FCAD09623033DFEB006DDFFF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAD09453033DFEB006DDFFF /* PBXTargetDependency */,
+			);
+			name = "Food Processor (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Food Processor (macOS)";
+			productReference = FCAD092C3033DFEB006DDFFF /* Food Processor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAD09373033DFEB006DDFFF /* Food Processor Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD09583033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor Extension (iOS)" */;
+			buildPhases = (
+				FCAD09343033DFEB006DDFFF /* Sources */,
+				FCAD09353033DFEB006DDFFF /* Frameworks */,
+				FCAD09363033DFEB006DDFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Processor Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Food Processor Extension (iOS)";
+			productReference = FCAD09383033DFEB006DDFFF /* Food Processor Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FCAD09413033DFEB006DDFFF /* Food Processor Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAD095F3033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor Extension (macOS)" */;
+			buildPhases = (
+				FCAD093E3033DFEB006DDFFF /* Sources */,
+				FCAD093F3033DFEB006DDFFF /* Frameworks */,
+				FCAD09403033DFEB006DDFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Processor Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Food Processor Extension (macOS)";
+			productReference = FCAD09423033DFEB006DDFFF /* Food Processor Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAD09073033DFEA006DDFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					FCAD09193033DFEB006DDFFF = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					FCAD092B3033DFEB006DDFFF = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					FCAD09373033DFEB006DDFFF = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					FCAD09413033DFEB006DDFFF = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = FCAD090A3033DFEA006DDFFF /* Build configuration list for PBXProject "Food Processor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAD09063033DFEA006DDFFF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FCAD091B3033DFEB006DDFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAD09193033DFEB006DDFFF /* Food Processor (iOS) */,
+				FCAD092B3033DFEB006DDFFF /* Food Processor (macOS) */,
+				FCAD09373033DFEB006DDFFF /* Food Processor Extension (iOS) */,
+				FCAD09413033DFEB006DDFFF /* Food Processor Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAD09183033DFEB006DDFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD094A3033DFEB006DDFFF /* Icon.png in Resources */,
+				FCAD09233033DFEB006DDFFF /* LaunchScreen.storyboard in Resources */,
+				FCAD09483033DFEB006DDFFF /* Main.html in Resources */,
+				FCAD094E3033DFEB006DDFFF /* Script.js in Resources */,
+				FCAD09523033DFEB006DDFFF /* Assets.xcassets in Resources */,
+				FCAD09263033DFEB006DDFFF /* Main.storyboard in Resources */,
+				FCAD094C3033DFEB006DDFFF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD092A3033DFEB006DDFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD094B3033DFEB006DDFFF /* Icon.png in Resources */,
+				FCAD094D3033DFEB006DDFFF /* Style.css in Resources */,
+				FCAD09323033DFEB006DDFFF /* Main.storyboard in Resources */,
+				FCAD094F3033DFEB006DDFFF /* Script.js in Resources */,
+				FCAD09533033DFEB006DDFFF /* Assets.xcassets in Resources */,
+				FCAD09493033DFEB006DDFFF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09363033DFEB006DDFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD09753033DFEB006DDFFF /* popup.js in Resources */,
+				FCAD097B3033DFEB006DDFFF /* popup.css in Resources */,
+				FCAD09763033DFEB006DDFFF /* popup.html in Resources */,
+				FCAD09783033DFEB006DDFFF /* README.md in Resources */,
+				FCAD09793033DFEB006DDFFF /* icons in Resources */,
+				FCAD097A3033DFEB006DDFFF /* manifest.json in Resources */,
+				FCAD09773033DFEB006DDFFF /* PRIVACY.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09403033DFEB006DDFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD096E3033DFEB006DDFFF /* popup.js in Resources */,
+				FCAD09743033DFEB006DDFFF /* popup.css in Resources */,
+				FCAD096F3033DFEB006DDFFF /* popup.html in Resources */,
+				FCAD09713033DFEB006DDFFF /* README.md in Resources */,
+				FCAD09723033DFEB006DDFFF /* icons in Resources */,
+				FCAD09733033DFEB006DDFFF /* manifest.json in Resources */,
+				FCAD09703033DFEB006DDFFF /* PRIVACY.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAD09163033DFEB006DDFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD09503033DFEB006DDFFF /* ViewController.swift in Sources */,
+				FCAD091E3033DFEB006DDFFF /* AppDelegate.swift in Sources */,
+				FCAD09203033DFEB006DDFFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09283033DFEB006DDFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD09513033DFEB006DDFFF /* ViewController.swift in Sources */,
+				FCAD092F3033DFEB006DDFFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD09343033DFEB006DDFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD09543033DFEB006DDFFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAD093E3033DFEB006DDFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAD09553033DFEB006DDFFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCAD093B3033DFEB006DDFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAD09373033DFEB006DDFFF /* Food Processor Extension (iOS) */;
+			targetProxy = FCAD093A3033DFEB006DDFFF /* PBXContainerItemProxy */;
+		};
+		FCAD09453033DFEB006DDFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAD09413033DFEB006DDFFF /* Food Processor Extension (macOS) */;
+			targetProxy = FCAD09443033DFEB006DDFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCAD090D3033DFEA006DDFFF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD090E3033DFEA006DDFFF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FCAD09213033DFEB006DDFFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD09223033DFEB006DDFFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAD09243033DFEB006DDFFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD09253033DFEB006DDFFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAD09303033DFEB006DDFFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAD09313033DFEB006DDFFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAD09563033DFEB006DDFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCAD09573033DFEB006DDFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FCAD09593033DFEB006DDFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77KHUGS69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor.Extension";
+				PRODUCT_NAME = "Food Processor Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAD095A3033DFEB006DDFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77KHUGS69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor.Extension";
+				PRODUCT_NAME = "Food Processor Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAD095D3033DFEB006DDFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77KHUGS69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor";
+				PRODUCT_NAME = "Food Processor";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAD095E3033DFEB006DDFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L77KHUGS69;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor";
+				PRODUCT_NAME = "Food Processor";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAD09603033DFEB006DDFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor.Extension";
+				PRODUCT_NAME = "Food Processor Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCAD09613033DFEB006DDFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor.Extension";
+				PRODUCT_NAME = "Food Processor Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCAD09643033DFEB006DDFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor";
+				PRODUCT_NAME = "Food Processor";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCAD09653033DFEB006DDFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Food Processor";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Food-Processor";
+				PRODUCT_NAME = "Food Processor";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAD090A3033DFEA006DDFFF /* Build configuration list for PBXProject "Food Processor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD09563033DFEB006DDFFF /* Debug */,
+				FCAD09573033DFEB006DDFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD09583033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD09593033DFEB006DDFFF /* Debug */,
+				FCAD095A3033DFEB006DDFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD095C3033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD095D3033DFEB006DDFFF /* Debug */,
+				FCAD095E3033DFEB006DDFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD095F3033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD09603033DFEB006DDFFF /* Debug */,
+				FCAD09613033DFEB006DDFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAD09633033DFEB006DDFFF /* Build configuration list for PBXNativeTarget "Food Processor (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAD09643033DFEB006DDFFF /* Debug */,
+				FCAD09653033DFEB006DDFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCAD09073033DFEA006DDFFF /* Project object */;
+}

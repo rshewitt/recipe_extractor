@@ -250,3 +250,6 @@ poetry run python -m recipe_extractor.local_server
 ### What local mode does and does not test
 
 Local mode tests the complete browser flow and the core recipe extraction behavior. Its job/status cache is in memory and resets when the process restarts. It does not emulate IAM, API Gateway, Step Functions retries, DynamoDB conditional writes/TTL, S3 lifecycle behavior, CloudFront, WAF, or CloudWatch. Use a separately deployed SAM stack with `Environment=dev` for those integration tests rather than depending on a large local AWS emulator.
+
+### TODO 
+- gather other steps if not provided (e.g. prep time) 
